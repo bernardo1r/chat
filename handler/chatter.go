@@ -7,6 +7,7 @@ import (
 	"log"
 	"net/http"
 	"os"
+	"strings"
 	"time"
 
 	"github.com/bernardo1r/chat/common"
@@ -78,7 +79,7 @@ func getName(conn *websocket.Conn) (string, error) {
 		return "", fmt.Errorf("invalid message type from client")
 	}
 
-	return string(message), nil
+	return strings.Trim(string(message), " "), nil
 }
 
 func (c *client) diconnect(hub *Hub) {
