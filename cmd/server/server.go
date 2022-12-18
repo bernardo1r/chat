@@ -6,7 +6,8 @@ import (
 	"net/http"
 	"os"
 	"time"
-	"wstest/handler"
+
+	"github.com/bernardo1r/chat/handler"
 )
 
 func main() {

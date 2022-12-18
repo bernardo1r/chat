@@ -1,4 +1,4 @@
-module wstest
+module github.com/bernardo1r/chat
 
 go 1.19
 
