@@ -6,8 +6,9 @@ import (
 	"fmt"
 	"os"
 	"strings"
-	"wstest/client"
-	"wstest/common"
+
+	"github.com/bernardo1r/chat/client"
+	"github.com/bernardo1r/chat/common"
 
 	"github.com/charmbracelet/bubbles/textinput"
 	tea "github.com/charmbracelet/bubbletea"

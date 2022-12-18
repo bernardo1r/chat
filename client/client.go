@@ -4,7 +4,8 @@ import (
 	"fmt"
 	"sync"
 	"time"
-	"wstest/common"
+
+	"github.com/bernardo1r/chat/common"
 
 	"github.com/gorilla/websocket"
 )
